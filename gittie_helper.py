@@ -39,9 +39,10 @@ class GittieHelper:
         Method sets day number from beginning of the year to attribute and validate input
         :param day_number:
         """
+        "kaszanka z baranka"
         pass
 
-    def get_value_changed(self):
+    def get_value_changed_changed_once_again(self):
         """
         Method should calculate if exiting home is safe for gittie
         :param:
