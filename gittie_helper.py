@@ -7,6 +7,7 @@ class GittieHelper:
         self.temperature_degree = None
         self.humidity_value = None
 
+
     def set_temperature(self, temperature_degree):
         """
         Method sets temperature to attribute and validate input
@@ -19,6 +20,7 @@ class GittieHelper:
         Method sets humidity level to attribute and validate input
         :param humidity_value:
         """
+        self.humidity_value = humidity_value
         return humidity_value
 
     def set_air_pollution(self, air_pollution_level):
@@ -35,7 +37,7 @@ class GittieHelper:
         """
         pass
 
-    def get_value(self):
+    def get_value_better(self):
         """
         Method should calculate if exiting home is safe for gittie
         :param:
