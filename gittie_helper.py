@@ -7,11 +7,8 @@ class GittieHelper:
         self.temperature_degree = None
         self.humidity_value = None
 
-<<<<<<< HEAD
     def __str__(self):
         return "Temperature:{} Humidity{}".format(self.temperature_degree, self.humidity_value)
-=======
->>>>>>> 11b31a503940f79d6c724afa4791483257edb9ae
 
     def set_temperature(self, temperature_degree):
         """
@@ -51,5 +48,3 @@ class GittieHelper:
             pass
         if humidity > 60:
             pass
-
-
