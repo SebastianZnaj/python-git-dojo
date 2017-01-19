@@ -7,6 +7,9 @@ class GittieHelper:
         self.temperature_degree = None
         self.humidity_value = None
 
+    def __str__(self):
+        return "Temperature:{} Humidity{}".format(self.temperature_degree, self.humidity_value)
+
     def set_temperature(self, temperature_degree):
         """
         Method sets temperature to attribute and validate input
@@ -35,9 +38,14 @@ class GittieHelper:
         """
         pass
 
-    def get_value(self):
+    def get_value_changed(self):
         """
         Method should calculate if exiting home is safe for gittie
         :param:
         """
-        pass
+        if temperature < 20:
+            pass
+        if humidity > 60:
+            pass
+
+
