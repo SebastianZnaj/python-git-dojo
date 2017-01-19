@@ -15,6 +15,7 @@ class GittieHelper:
         Method sets temperature to attribute and validate input
         :param temperature_degree:
         """
+        "nowa linijka"
         return temperature_degree
 
     def set_humidity(self, humidity_value):
@@ -22,6 +23,7 @@ class GittieHelper:
         Method sets humidity level to attribute and validate input
         :param humidity_value:
         """
+        "druga nowa linijka"
         self.humidity_value = humidity_value
         return humidity_value
 
