@@ -48,3 +48,6 @@ class GittieHelper:
             pass
         if humidity > 60:
             pass
+
+    def niesamowicie_skomplikowana_funkcja(self):
+        pass
